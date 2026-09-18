@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/html.html to edit this template
+-->
+<html lang="en">
+    <head>
+        
+        
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Spark Electricians | Est. 2018 | Safe & Trusted</title>
+        <link rel = "stylesheet" href = "css/style.css">
+        <link href="https://fonts.googleleapis.com" rel="stylesheet">
+        
+        
+    </head>
+    <body>
+        <a href="#main" class="skip-link">Skip to content</a>
+        <header>
+            <nav></nav>
+            <div class="logo">SPARK<span> </span> <small>Est. 2018</small></div>
+            <button class="hamburger" id="harmburger" aria-label="Menu" aria-expanded="false">=</button>
+            <ul class="nav-links" id="navLinks"></ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#service">Services</a></li>
+            <li><a href="#booking">Book Online<a/></li>
+            <li><a href="#team">Team</a></li>
+            <li><a href="tel:0123456789" class="phone-nav"> 012 345 6789</a></li>
+            </<ul>
+                <li>first</li>
+                <li>second</li>
+                <li>third</li>
+            </ul>
+            </<nav></nav>
+        </header>
+        
+        <main id="main"></main>
+        <section class="hero" id="home"></section>
+        <h1>Professional Electrical Services You Can Trust</h1>
+        <p>Licensed, safe & energy-efficient. We help homeowners & businesses reduce admin time - book online in 60 seconds .Target: Gauteng homeowners, land
+            lords & Mmes.</p>
+        <a href="3booking" class="btn">Request Instant Quote</a>
+        <p style="margin-top: 1rem; font-size: 0.9rem">API Focus: Generate leads, track bookings , reduce phone admin</p>
+    </section>
+    
+    <section class="container" id="service"></section>
+    <h2>Our Service</h2>
+    <div class="grid-3"></div>
+    <div class="card"><h3>Residential Wiring</h3><p>Fault finding, rewiring. COC certificate. High safety compliance.</p></div>
+    <div class="card"><h3>Commercial Solutions</h3><p>3-phase, DB boards, energy-saving lighting for business.</p></div>
+    <div class="card"><h3>Emergency Repairs 24/7</h3><p>Fast response , optimized for mobile users outdoors.</p></div>
+</div>
+</section>
+
+<section class="container highlight" id="booking"></section>
+<h2>Book Online & Quick Quote Estimator</h2>
+<div class="split"></div>
+<div class="form-box"></div>
+<h3>1. Interactive Booking Calender</h3>
+<label>Date</label><input type="date" id="bookDate"><!-- comment -->
+<label>Open Slot</label><select id="slot"><option>08:00-10:00</option><option>10:30-12-30</option><option>13:30-15:30</option><option>16:00-18:00(Emergency)</option></select>
+<label>Name</label><input type="text" id="customerName" placeholder="Your name"><!-- comment -->
+<button class="btn" onclick="confirmBooking()">Confirm Booking</button>
+<p id="bookMessage"></p>
+</div>
+<div class="form box"></div>
+<h3>2. Quote Estimator Tool</h3>
+<label>Common Issue</label>
+<select id="issue" onchange="calcQoute()"></select>
+<option value="0">---Select --</option>
+<option value="R650">Plug Point Repair - R650</option>
+<option value="R1200">light Install (per point) - 1200</option>
+<option value="R2500">DB Board Upgrade- R2500</option>
+<option value="R850">Fault finding - R850</option>
+<option value="R1800">CBC Certificate- R1800</option>
+</select>
+<label>Quantity</label><input type="number" id="gty" value="1" min="1" oninput="calcQuote()"><!-- comment -->
+<div id="quoteResult">Estimated Total: 0.00</div>
+<small>*Vanilla AS calculator as Technical Requirements</small>
+</div>
+</div>
+</selection>
+
+<section class="container" id="team"></section>
+<h2>Meet The Team - Trust & Certificates</h2>
+<div class="grid-3"></div>
+<div class="card team"><h3>J.Smith</h3><p>Master Electrician - Wireman`s license 2018/1234 - 8 years</p></div>
+<div class="card team"><h3>J.Tepanyekga</h3><p>Commercial Specialist DECs Registered - Safety Officer</p></div>
+<div class="card team"><h3>M.Kganakga</h3><p>Inspector -SANS 10142 Certified 10 years Experience</p></div>
+</div>
+</selection>
+</main><!-- comment -->
+
+<a href="tel:0123456789" class="fab" aria-label="Emergency Call">telephone</a>
+
+<footer></footer>
+<p><strong>Spark Electricians</strong> | Domain & Hosting R1200 | Content Assets R1500 | Testing & Deployment R500 | Timeline: Week 2 Wireframes , Week 4 Aden, Week 6 Testing</p>
+<p>Tech: HTML5 Sematic , C's gRID/ Flexbox , Vanilla AS - Fast local/ hosting + daily backups</p>
+</footer><!-- comment -->
+<script src="js/script.js"></script>
+    </body>
+</html>
